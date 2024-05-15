@@ -10,7 +10,6 @@ if not os.path.isdir(path):
     os.mkdir(os.path.join(path, "Video Downloader"))
 
 
-# add progression bar to this 
 def videoDownload(link):
     try:
             yt = YouTube(link)
